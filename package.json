@@ -1,0 +1,18 @@
+{
+	"name": "icon-sprites",
+	"version": "1.0.0",
+	"description": "Icon sprite generator",
+	"scripts": {
+		"icons": "webpack --config webpack.icons.js "
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nonlinearcom/icon-sprites.git"
+	},
+	"dependencies": {
+		"svg-spritemap-webpack-plugin": "^4.0.3"
+	},
+	"devDependencies": {
+		"webpack-cli": "^4.7.2"
+	}
+}
